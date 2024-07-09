@@ -19,6 +19,8 @@
 }
 
 .rounded-rectangle {
+  position: relative;
+  right: 50px;
   background-color: rgb(195, 224, 29);
   border-radius: 15px;
   padding: 10px;
