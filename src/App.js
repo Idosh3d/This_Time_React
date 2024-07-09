@@ -21,7 +21,7 @@ class App extends Component {
           </a>
           <a
             className="App-link"
-            href="tinyurl.com/idosh3d"
+            href="https://tinyurl.com/idosh3d"
             target="_blank"
             rel="noopener noreferrer"
           >
