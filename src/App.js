@@ -11,7 +11,9 @@ class App extends Component {
           <p>
             Hello from Render!
           </p>
-          <div>
+          <div
+          className="rounded-rectangle"
+          >
             <a
               className="App-link"
               href="https://tinyurl.com/idosh3d"
@@ -29,3 +31,5 @@ class App extends Component {
 }
 
 export default App;
+
+

@@ -18,6 +18,13 @@
   color: white;
 }
 
+.rounded-rectangle {
+  background-color: rgb(224, 133, 29);
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
 .App-link {
   color: #61dafb;
 }
