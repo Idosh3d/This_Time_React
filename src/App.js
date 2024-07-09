@@ -12,17 +12,17 @@ class App extends Component {
             Hello from Render!
           </p>
           <div
-          className="rounded-rectangle"
-          >
-            <a
-              className="App-link"
-              href="https://tinyurl.com/idosh3d"
-              target="_blank"
-              rel="noopener noreferrer"
+            className="rounded-rectangle"
             >
-              How To Get To Ido's Portfolio
-              In An Overly Complicated Way
-            </a>
+              <a
+                className="App-link"
+                href="https://tinyurl.com/idosh3d"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                How To Get To Ido's Portfolio
+                In An Overly Complicated Way
+              </a>
           </div>
         </header>
       </div>
