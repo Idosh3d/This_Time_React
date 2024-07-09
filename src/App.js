@@ -11,34 +11,32 @@ class App extends Component {
           <p>
             Hello from Render!
           </p>
-          <div
-            className="rounded-rectangle"
-            style={{ display: "inline-block", marginRight: "10px" }}
-          >
-            <a
-              className="App-link"
-              href="https://tinyurl.com/idosh3d"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              How To Get To Ido's Portfolio
-              In An Overly Complicated Way
-            </a>
-          </div>
-          <div
-            className="rounded-rectangle"
-            style={{ display: "inline-block" }}
-          >
-            <a
-              className="App-link"
-              href="https://tinyurl.com/idosh3d"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              How To Get To Ido's Portfolio
-              In An Overly Complicated Way
-            </a>
-          </div>
+
+          <div style={{ display: "flex" }}>
+            <div className="rounded-rectangle">
+              <a
+                className="App-link"
+                href="https://tinyurl.com/idosh3d"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                How To Get To Ido's Portfolio
+                In An Overly Complicated Way
+              </a>
+            </div>
+            <div className="rounded-rectangle" style={{ marginLeft: "10px" }}>
+              <a
+                className="App-link"
+                href="https://tinyurl.com/idosh3d"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                How To Get To Ido's Portfolio
+                In An Overly Complicated Way
+              </a>
+            </div>
+</div>
+
         </header>
       </div>
     );
