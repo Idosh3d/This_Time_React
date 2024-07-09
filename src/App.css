@@ -21,9 +21,14 @@
 .rounded-rectangle {
   position: relative;
   background-color: rgb(195, 224, 29);
+  transition: background-color 0.3s ease;
   border-radius: 15px;
   padding: 10px;
   display: inline-block;
+}
+
+.rounded-rectangle:hover {
+  background-color: rgb(195, 224, 100); /* Change to the color you prefer */
 }
 
 .App-link {
