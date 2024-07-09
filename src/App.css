@@ -19,7 +19,7 @@
 }
 
 .rounded-rectangle {
-  animation: Jake-up-down infinite 20s linear;
+  animation: Jake-up-down infinite 4s linear;
   background-color: rgb(195, 224, 29);
   border-radius: 15px;
   padding: 10px;
@@ -41,12 +41,12 @@
 
 @keyframes Jake-up-down{
   0% {
-    transform: translate(0px);
+    transform: translate(0px, 0px);
   }
   50% {
-    transform: translate(20px);
+    transform: translate(0px, 50px);
   }
   100% {
-    transform: translate(0px);
+    transform: translate(0px, 0px);
   }
 }
