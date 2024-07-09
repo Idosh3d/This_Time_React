@@ -19,6 +19,7 @@
 }
 
 .rounded-rectangle {
+  animation: App-logo-spin infinite 20s linear;
   background-color: rgb(195, 224, 29);
   border-radius: 15px;
   padding: 10px;
