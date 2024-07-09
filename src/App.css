@@ -19,7 +19,7 @@
 }
 
 .rounded-rectangle {
-  animation: Jake-up-down infinite 4s linear;
+  transform: translate(200,0);
   background-color: rgb(195, 224, 29);
   border-radius: 15px;
   padding: 10px;
