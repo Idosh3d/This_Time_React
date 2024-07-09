@@ -20,12 +20,11 @@
 
 .rounded-rectangle {
   position: relative;
-  right: 50px;
+  right: 500px;
   background-color: rgb(195, 224, 29);
   border-radius: 15px;
   padding: 10px;
   display: inline-block;
-  margin-left: 100px;
 }
 
 .App-link {
