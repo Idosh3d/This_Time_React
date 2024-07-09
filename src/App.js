@@ -11,8 +11,7 @@ class App extends Component {
           <p>
             Hello from Render!
           </p>
-          <div
-          style>
+          <div>
             <a
               className="App-link"
               href="https://tinyurl.com/idosh3d"
