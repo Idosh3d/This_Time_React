@@ -21,11 +21,12 @@ class App extends Component {
           </a>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="tinyurl.com/idosh3d"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            How To Get To Ido's Portfolio
+            In An Overly Complicated Way
           </a>
         </header>
       </div>
