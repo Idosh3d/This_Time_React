@@ -11,23 +11,18 @@ class App extends Component {
           <p>
             Hello from Render!
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <a
-            className="App-link"
-            href="https://tinyurl.com/idosh3d"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            How To Get To Ido's Portfolio
-            In An Overly Complicated Way
-          </a>
+          <div
+          style>
+            <a
+              className="App-link"
+              href="https://tinyurl.com/idosh3d"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              How To Get To Ido's Portfolio
+              In An Overly Complicated Way
+            </a>
+          </div>
         </header>
       </div>
     );
