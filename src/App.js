@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hello from Render!
+            React_Test_1
           </p>
           <div className="rounded-rectangle" onClick={() => window.location.href="https://tinyurl.com/idosh3d"}>
             <a
