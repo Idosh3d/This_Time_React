@@ -18,8 +18,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              How To Get To Ido's Portfolio
-              In An Overly Complicated Way
+              yo yali teer'ee ma ani ose
             </a>
           </div>
         </header>
