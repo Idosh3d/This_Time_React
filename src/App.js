@@ -26,7 +26,7 @@ class App extends Component {
           <dropdown
             className="dropdown-top"
             style={{
-              width: '300px',
+              width: '350px',
               height: '50px',
               position: 'absolute',
               top: '80px',
@@ -34,6 +34,15 @@ class App extends Component {
             }}
             >
               dropdown menu no.1
+            <parent
+              className="dropdown-parent"
+              >
+                <item
+                  className="dropdown-item"
+                >
+                  click this!
+                </item>
+            </parent>
           </dropdown>
         </header>
       </div>

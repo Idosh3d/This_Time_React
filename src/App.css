@@ -55,6 +55,25 @@
   background-color: hsl(180, 22%, 65%);
 }
 
+.dropdown-item {
+  background-color: hsl(0, 0%, 85%);
+  width: 300px;
+  height: 50px;
+  outline: auto;
+}
+
+.dropdown-parent {
+  background-color: hsl(0, 0%, 85%);
+  width: 300px;
+  height: 50px;
+  z-index: 1;
+  transform-origin: top;
+}
+
+.dropdown-parent:hover {
+  animation: squash-sideways 1s forwards;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -77,6 +96,12 @@
 }
 
 @keyframes squash-sideways {
+  0% { transform: scaleX(1) scaleY(1); }
+  50% { transform: scaleX(1.25) scaleY(0.8); }
+  100% { ransform: scaleX(1) scaleY(1); }
+}
+
+@keyframes dropdown-open {
   0% { transform: scaleX(1) scaleY(1); }
   50% { transform: scaleX(1.25) scaleY(0.8); }
   100% { ransform: scaleX(1) scaleY(1); }
