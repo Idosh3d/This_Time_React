@@ -31,6 +31,10 @@
   background-color: rgb(195, 224, 100); /* Change to the color you prefer */
 }
 
+.rounded-rectangle:active {
+  background-color: #FFFFFF; /* Change to white when clicked */
+}
+
 .App-link {
   color: #000000;
 }
