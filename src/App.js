@@ -24,9 +24,8 @@ class App extends Component {
           </jojo2>
 
           <dropdown
-            className="rounded-rectangle"
+            className="dropdown-top"
             style={{
-              backgroundColor: 'rgb(100, 180, 180)',
               width: '300px',
               height: '50px',
               position: 'absolute',
@@ -34,6 +33,7 @@ class App extends Component {
               right: '80px',
             }}
             >
+              dropdown menu no.1
           </dropdown>
         </header>
       </div>

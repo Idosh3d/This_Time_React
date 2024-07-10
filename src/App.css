@@ -41,6 +41,20 @@
   color: #000000;
 }
 
+.dropdown-top {
+  position: relative;
+  background-color: hsl(180, 35%, 55%);
+  color: rgb(0,0,0);
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.dropdown-top:hover {
+  background-color: hsl(180, 22%, 65%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
