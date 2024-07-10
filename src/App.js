@@ -12,14 +12,7 @@ class App extends Component {
             React_Test_1
           </p>
           <div className="rounded-rectangle" onClick={() => window.location.href="https://tinyurl.com/idosh3d"}>
-            <a
-              className="App-link"
-              href="https://tinyurl.com/idosh3d"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              yo yali teer'ee ma ani ose
-            </a>
+              I can make websites now yay
           </div>
         </header>
       </div>

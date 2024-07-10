@@ -25,6 +25,7 @@
   border-radius: 15px;
   padding: 10px;
   display: inline-block;
+  color: rgb(0,0,0);
 }
 
 .rounded-rectangle:hover {
