@@ -13,7 +13,7 @@ class App extends Component {
           </p>
 
           <div style={{ display: "flex" }}>
-            <div className="rounded-rectangle">
+            <div className="rounded-rectangle" onClick={() => window.location.href="https://tinyurl.com/idosh3d"}>
               <a
                 className="App-link"
                 href="https://tinyurl.com/idosh3d"
@@ -24,7 +24,7 @@ class App extends Component {
                 In An Overly Complicated Way
               </a>
             </div>
-            <div className="rounded-rectangle" style={{ marginLeft: "10px" }}>
+            <div className="rounded-rectangle" style={{ marginLeft: "10px" }} onClick={() => window.location.href="https://tinyurl.com/idosh3d"}>
               <a
                 className="App-link"
                 href="https://tinyurl.com/idosh3d"
@@ -35,7 +35,7 @@ class App extends Component {
                 In An Overly Complicated Way
               </a>
             </div>
-</div>
+          </div>
 
         </header>
       </div>
