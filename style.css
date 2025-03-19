@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.heres-the {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heres-the h2 {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.heres-the h2:hover {
+  background-color: rgb(51, 0, 51);
+  color: hsl(300, 20%, 75%);
+  transition: 0.5s;
+}
